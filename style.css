@@ -7,7 +7,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    gap: 24px;
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -43,6 +43,8 @@ img {
 
 .content-01{
     display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .left-con{
@@ -50,4 +52,14 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     width: 700px;
+}
+
+.left-con h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+}
+
+.left-con button {
+    background-color: #3882F6;
 }
