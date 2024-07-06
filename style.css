@@ -94,3 +94,22 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+/*for block 3*/
+.block-03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.block-03 p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
