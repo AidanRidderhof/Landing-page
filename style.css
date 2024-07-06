@@ -70,3 +70,27 @@ img {
     font-size: 18px;
     color: #E5E7EB
 }
+
+/* For Block 2*/
+.block-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.block-02 h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.blocks {
+    display: flex;
+    gap: 24px;
+}
+
+.pic-sub {
+    display: flex;
+    flex-direction: column;
+}
