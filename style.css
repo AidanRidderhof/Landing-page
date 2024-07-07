@@ -19,13 +19,13 @@ a {
 
 img {
     height: 300px;
-    width: 300px;
+    width: 500px;
 }
 
 .block-01{
     background-color: #1F2937;
     height: 600px;
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 150px;
 }
 
@@ -45,21 +45,27 @@ img {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    margin-top: 100px;
+    
 }
 
 .left-con{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 700px;
+    width: 500px;
     font-size: 18px;
     color: #E5E7EB;
+    
+    gap: 8px;
 }
 
 .left-con h1{
     font-size: 48px;
     font-weight: extra-bold;
     color:#F9FAF8;
+    margin-bottom: -5px;
+    margin-top: -30px;
 }
 
 .left-con button {
@@ -77,12 +83,13 @@ img {
     flex-direction: column;
     align-items: center;
     height: 600px;
+    text-align: center;
 }
 
 .block-02 h1 {
     color: #1F2937;
     font-size: 36px;
-    font-weight: extra-bold;
+    
 }
 
 .blocks {
@@ -93,6 +100,13 @@ img {
 .pic-sub {
     display: flex;
     flex-direction: column;
+}
+
+.pic-sub img {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+
 }
 
 /*for block 3*/
