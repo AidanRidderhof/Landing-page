@@ -126,5 +126,8 @@ img {
     display: flex;
     height: 150px;
     background-color: #1F2937;
-    
-}
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center; 
+}  
